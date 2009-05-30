@@ -1,5 +1,8 @@
 <%# Page Title %>
 <% content_for :page_title do %>Editing Quote<% end -%>
 
-<%= render :partial => 'form',
-           :locals => { :button_text => 'Edit' } %>
+<% @quote.tags.build %>
+<% form_for(@quote) do |f| %>
+  <%= render :partial => "fields", :locals => { :f => f } %>
+  <p><%= f.submit 'Edit' %></p>
+<% end %>

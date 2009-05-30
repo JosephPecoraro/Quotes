@@ -2,27 +2,27 @@
  * Specific Styling
  * Author: Joseph Pecoraro
  */
-
-$(function() {
+jQuery = jQuery.noConflict(true);
+jQuery(function() {
 	
 	// Hover on each of the Quotes
-	$('.q').hover(
+	jQuery('.q').hover(
 		function() {
-			// $(this).find('.num').css('display','block');
-			$(this).css('backgroundColor','#FAFAFA');
-			$(this).find('.author').css('opacity', 1);
-			$(this).find('.tags').show();
+			// jQuery(this).find('.num').css('display','block');
+			jQuery(this).css('backgroundColor','#FAFAFA');
+			jQuery(this).find('.author').css('opacity', 1);
+			jQuery(this).find('.tags').show();
 		},
 		function() {
-			// $(this).find('.num').css('display','none');
-			$(this).animate({backgroundColor:'white'});
-			$(this).find('.author').animate({opacity:0});
-			$(this).find('.tags').fadeOut();
+			// jQuery(this).find('.num').css('display','none');
+			jQuery(this).animate({backgroundColor:'white'});
+			jQuery(this).find('.author').animate({opacity:0});
+			jQuery(this).find('.tags').fadeOut();
 		}
 	);
 	
 	// States
-	var $quotes = $('.q');
+	var $quotes = jQuery('.q');
 	var showing = 10;
 	var total = $quotes.length;
 	var step = 10;
@@ -30,11 +30,11 @@ $(function() {
 
 	// Automatically show the next 10 quotes when the user
 	// scrolls to 75% of the page
-	$(window).scroll(function() {
+	jQuery(window).scroll(function() {
 		var currentHeight = document.body.scrollTop + self.innerHeight;
 		if ( currentHeight > viewPercent ) {
 			for (var i=0; i<step && showing<total; i++) {
-				$($quotes.get(i+showing)).fadeIn();
+				jQuery($quotes.get(i+showing)).fadeIn();
 				showing++;
 			};
 			viewPercent = document.body.scrollHeight * 0.75;					
@@ -42,3 +42,9 @@ $(function() {
 	});
 	
 });
+
+
+function mark_for_remove(elem) {
+	$(elem).next('.should_remove').value = 1;
+	$(elem).up('.tag').hide();
+}

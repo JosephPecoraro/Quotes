@@ -11,6 +11,7 @@
 #header { margin-top: 50px; border-bottom: 1px solid #CCC; }
 #footer { margin-bottom: 20px; }
 h1 { font-size: 400%; font-family: Georgia,serif; }
+h1 a { color: inherit; text-decoration: none; }
 
 /* Quotes */
 .q { position: relative; cursor: default; }	
@@ -46,6 +47,7 @@ blockquote {
 }
 
 /* Tags */
+.tags li a.action { color: #99d; }
 .tags {
 	z-index: 10;
 	position: absolute;
