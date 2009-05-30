@@ -1,0 +1,70 @@
+/*
+ * Default Styles
+ * @author: Joseph Pecoraro
+ * @email:  joepeck02@gmail.com
+ */
+ 
+/* General Classes */
+.center { text-align: center; }
+
+/* Give the header+footer a little space */
+#header { margin-top: 50px; border-bottom: 1px solid #CCC; }
+#footer { margin-bottom: 20px; }
+h1 { font-size: 400%; font-family: Georgia,serif; }
+
+/* Quotes */
+.q { position: relative; cursor: default; }	
+
+.num { 
+	position: absolute;
+	left: -150px;
+	top: -20px;
+	font-size: 1000%;
+	opacity: 0.5;
+	color: #ACA;
+}
+
+.author {
+	position: absolute;
+	font-size: 170%;
+	right: 50px;
+	bottom: 5px;
+	opacity: 0.1;
+	font-style: italic;
+	color: #ACA;
+}
+
+blockquote {
+	background: transparent url('../images/quotes.png') no-repeat 0.5em 0.5em;
+	font-size: 150%;
+	font-style: italic;
+	padding-left: 2em;
+	padding-top: 2.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0em;
+	color: #333;
+}
+
+/* Tags */
+.tags {
+	z-index: 10;
+	position: absolute;
+	left: 50px;
+	bottom: -10px;
+	list-style-type: none;
+	padding-left: -10px;
+}
+
+.tags li {
+	display: inline;
+}
+
+.tags a {
+	text-decoration: none;
+	color: #D88;
+	padding: 1px;
+}
+
+.tags a:hover {
+	text-decoration: underline;
+}

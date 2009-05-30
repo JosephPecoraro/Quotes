@@ -1,0 +1,6 @@
+<%# Page Title %>
+<% content_for :page_title do %>New Quote<% end -%>
+
+<%= render :partial => 'form',
+           :locals => { :button_text => 'Create' } %>
+
