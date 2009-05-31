@@ -1,0 +1,53 @@
+shower:
+  id: 1
+  text: "There's no half-singing in the shower, you're either a rock star or an opera diva."
+  tags: funny
+  author: groban
+
+clever:
+  id: 2
+  text: "I am so clever that sometimes I don't understand a single word of what I am saying."
+  tags: confusing
+  author: mccloskey
+
+booger:
+  id: 3
+  text: "Love is like a booger. You keep picking at it until you get it, then wonder what to do with it."
+  tags: funny, confusing
+  author: wilde
+
+dogs:
+  id: 4
+  text: "Dogs have Owners, Cats have Staff."
+  tags: funny
+  author: ariel
+
+bras:
+  id: 5
+  text: "Friends are like bras: close to your heart and there for support."
+  tags: funny
+  author: loki
+
+pessimist:
+  id: 6
+  text: "Borrow money from a pessimist - they don't expect it back."
+  tags: funny, pessimist
+  author: sun
+
+afraid:
+  id: 7
+  text: "Never be afraid to try something new. Remember, amateurs built the ark. Professionals built the Titanic."
+  tags: funny, t, professionals
+  author: anon
+
+indecisive:
+  id: 8
+  text: "I used to think I was indecisive, but now I'm not so sure."
+  tags: funny
+  author: anon
+
+plans:
+  id: 9
+  text: "Life is what happens to you while you're busy making other plans."
+  tags: funny
+  author: anon
