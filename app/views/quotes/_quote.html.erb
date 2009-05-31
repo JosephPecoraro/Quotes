@@ -3,9 +3,11 @@
 	<blockquote><p><%= quote.text %></p></blockquote>
 	<span class="author"><%= quote.author.name %></span>
 	<ul class="tags" style="display:none;">
-	  <li><%= link_to 'View', quote_path(quote), :class => 'action' %> -</li>
-	  <li><%= link_to 'Edit', edit_quote_path(quote), :class => 'action' %> -</li>
-	  <li><%= link_to 'Delete', quote, :method => :delete, :confirm => "Are you sure?", :class => 'action' %> -</li>
-    <% quote.tags.each do |tag| %><li><a href="#"><%= tag.name %></a></li><% end %>
+	  <li><%= link_to 'View', quote_path(quote), :class => 'action' %></li>
+	  <li>- <%= link_to 'Edit', edit_quote_path(quote), :class => 'action' %></li>
+	  <li>- <%= link_to 'Delete', quote, :method => :delete, :confirm => "Are you sure?", :class => 'action' %></li>
+    <% quote.tags.each do |tag| -%>
+      <li>- <a href="#"><%= tag.name %></a></li>
+    <% end -%>
   </ul>
 </div>

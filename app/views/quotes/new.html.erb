@@ -2,7 +2,7 @@
 <% content_for :page_title do %>New Quote<% end -%>
 
 <% @quote.tags.build %>
-<% form_for(@quote) do |f| %>
+<% form_for(@quote, :html => { :class => 'center' }) do |f| %>
   <%= render :partial => "fields", :locals => { :f => f } %>
   <p><%= f.submit 'Create' %></p>
 <% end %>

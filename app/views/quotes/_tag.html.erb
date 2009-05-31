@@ -1,12 +1,11 @@
 <div class='tag'>
 <% fields_for "quote[tag_attributes][]", tag do |tag_form|%>    
   <p>
-    <%= tag_form.label :name, 'Tag:' %>
     <%= tag_form.text_field :name, :index => nil %>
     <% if tag.new_record? %>
-      <%= link_to_function 'remove', "$(this).up('.tag').remove()" %>
+      <%= link_to_function image_tag('delete.gif'), "$(this).up('.tag').remove()" %>
     <% else %>
-      <%= link_to_function 'remove', "mark_for_remove(this)" %>
+      <%= link_to_function image_tag('delete.gif'), "mark_for_remove(this)" %>
       <%= tag_form.hidden_field :should_remove, :index => nil, :class => 'should_remove' %>
       <%= tag_form.hidden_field :id, :index => nil %>
     <% end %>

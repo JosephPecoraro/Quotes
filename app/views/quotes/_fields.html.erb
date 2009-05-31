@@ -1,18 +1,16 @@
 <% @quote.author = Author.new if @quote.author.nil? %>
 <%= f.error_messages %>
 
-<p>
-  <%= f.label :text %><br />
-  <%= f.text_area :text %>
-</p>
+<p><%= f.text_area :text %></p>
 <% f.fields_for :author_attributes do |author_form| %>
   <p>
-    <%= author_form.label :name, 'Author:' %>
+    <%= author_form.label :name, 'Author' %>
     <%= author_form.text_field :name, :value => @quote.author.name %>
   </p>
 <% end -%>
 
 <div id="tags">
+  <label>Tags</label>
   <%= render :partial => 'tag', :collection => @quote.tags %>
 </div>
-<%= add_tag_link('Add a Tag') %>
+<p><%= add_tag_link( image_tag('create.gif') ) %></p>
