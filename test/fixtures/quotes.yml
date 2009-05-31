@@ -1,9 +1,63 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+quote_1:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: There's no half-singing in the shower, you're either a rock star or an opera diva.
+  id: 1
+  author_id: 74883349
+  created_at: Sun May 31 03:55:21 UTC 2009
 
-one:
-  text: MyText
-  author: 
+quote_2:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: I am so clever that sometimes I don't understand a single word of what I am saying.
+  id: 2
+  author_id: 733318341
+  created_at: Sun May 31 03:55:21 UTC 2009
 
-two:
-  text: MyText
-  author: 
+quote_3:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: Love is like a booger. You keep picking at it until you get it, then wonder what to do with it.
+  id: 3
+  author_id: 592683372
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+quote_4:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: Dogs have Owners, Cats have Staff.
+  id: 4
+  author_id: 637009131
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+quote_5:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: Friends are like bras: close to your heart and there for support.
+  id: 5
+  author_id: 692878493
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+quote_6:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: Borrow money from a pessimist - they don't expect it back.
+  id: 6
+  author_id: 987677901
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+quote_7:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: Never be afraid to try something new. Remember, amateurs built the ark. Professionals built the Titanic.
+  id: 7
+  author_id: 697543560
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+quote_8:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: I used to think I was indecisive, but now I'm not so sure.
+  id: 8
+  author_id: 697543560
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+quote_9:
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  text: Life is what happens to you while you're busy making other plans.
+  id: 9
+  author_id: 697543560
+  created_at: Sun May 31 03:55:21 UTC 2009
+

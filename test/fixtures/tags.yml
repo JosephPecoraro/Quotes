@@ -1,7 +1,20 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+tag_1:
+  name: true
+  id: 119
 
-one:
-  name: MyString
+tag_2:
+  name: funny
+  id: 112666335
 
-two:
-  name: MyString
+tag_3:
+  name: professionals
+  id: 279443493
+
+tag_4:
+  name: confusing
+  id: 599307557
+
+tag_5:
+  name: pessimist
+  id: 970467484
+

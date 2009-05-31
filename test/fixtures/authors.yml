@@ -1,7 +1,48 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+author_1:
+  name: Josh Groban
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  id: 74883349
+  created_at: Sun May 31 03:55:21 UTC 2009
 
-one:
-  name: MyString
+author_2:
+  name: John Lennon
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  id: 564262655
+  created_at: Sun May 31 03:55:21 UTC 2009
 
-two:
-  name: MyString
+author_3:
+  name: Oscar Wilde
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  id: 592683372
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+author_4:
+  name: ariel
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  id: 637009131
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+author_5:
+  name: lokiandari
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  id: 692878493
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+author_6:
+  name: Anonymous
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  id: 697543560
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+author_7:
+  name: Robert McCloskey
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  id: 733318341
+  created_at: Sun May 31 03:55:21 UTC 2009
+
+author_8:
+  name: sunkissd248
+  updated_at: Sun May 31 03:55:21 UTC 2009
+  id: 987677901
+  created_at: Sun May 31 03:55:21 UTC 2009
+
